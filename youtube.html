@@ -40,15 +40,9 @@ display: block;
   margin-right: 15px;
 }
 
-.channel-picture  {
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
-}
-
-.video-info {
-  display: inline-block;
-  width: 200px
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 .profile-picture { 
@@ -78,6 +72,10 @@ display: block;
 
 <body>
   <input class="search-bar" type="text" placeholder="Search">
+
+  <div class="video-grid">
+
+  </div>
   
 
   <div class="video-preview">
@@ -86,12 +84,11 @@ display: block;
       <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
     </div>
 
-    <div>
+    <div class="video-info-grid">
 
       <div class="channel-picture">
         <img class="profile-picture"  src="channel-pictures/profile1.jpeg">
       </div>
-
       <div class="video-info">
         <p class="video-title">
           Talking Tech and AI with Google CEO Sundar Pichai!
@@ -113,22 +110,20 @@ display: block;
 
 
 
-
   <div class="video-preview">
 
     <div class="thumbnail-row">
       <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
     </div>
 
-    <div>
+    <div class="video-info-grid">
 
       <div class="channel-picture">
         <img class="profile-picture"  src="channel-pictures/profile2.jpeg">
       </div>
-
       <div class="video-info">
         <p class="video-title">
-          Try Not To Laugh Challenge &#35;9
+          Try Not To Laugh Challenge &num;9
         </p>
       
         <p class="video-author">
@@ -146,18 +141,18 @@ display: block;
   </div>
 
 
+
   <div class="video-preview">
 
     <div class="thumbnail-row">
       <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
     </div>
 
-    <div>
+    <div class="video-info-grid">
 
       <div class="channel-picture">
         <img class="profile-picture"  src="channel-pictures/profile3.jpeg">
       </div>
-
       <div class="video-info">
         <p class="video-title">
           Crazy Tik Toks Taken Moments Before DISASTER
@@ -185,12 +180,11 @@ display: block;
       <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
     </div>
 
-    <div>
+    <div class="video-info-grid">
 
       <div class="channel-picture">
         <img class="profile-picture"  src="channel-pictures/profile4.jpeg">
       </div>
-
       <div class="video-info">
         <p class="video-title">
           The Simplest Math Problem No One Can Solve - Collatz Conjecture
@@ -211,6 +205,278 @@ display: block;
   </div>
 
 
+
+  <div class="video-preview">
+
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+    </div>
+
+    <div class="video-info-grid">
+
+      <div class="channel-picture">
+        <img class="profile-picture"  src="channel-pictures/profile5.jpeg">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          Kadane's Algorithm to Maximum Sum Subarray Problem
+        </p>
+      
+        <p class="video-author">
+          CS Dojo
+        </p>
+      
+        <p class="video-stats">
+          519K views &middot; 5 years ago
+        </p>
+      </div>
+      
+      
+    </div>
+
+  </div>
+
+
+
+  <div class="video-preview">
+
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+    </div>
+
+    <div class="video-info-grid">
+
+      <div class="channel-picture">
+        <img class="profile-picture"  src="channel-pictures/profile6.jpeg">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          Anything You Can Fit In The Circle I’ll Pay For
+        </p>
+      
+        <p class="video-author">
+          MrBeast
+        </p>
+      
+        <p class="video-stats">
+          141M views &middot; 1 year ago
+        </p>
+      </div>
+      
+      
+    </div>
+
+  </div>
+
+
+
+  <div class="video-preview">
+
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+    </div>
+
+    <div class="video-info-grid">
+
+      <div class="channel-picture">
+        <img class="profile-picture"  src="channel-pictures/profile7.jpeg">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          Why Planes Don't Fly Over Tibet
+        </p>
+      
+        <p class="video-author">
+          RealLifeLore
+        </p>
+      
+        <p class="video-stats">
+          6.6M views &middot; 1 year ago
+        </p>
+      </div>
+      
+      
+    </div>
+
+  </div>
+
+
+
+  <div class="video-preview">
+
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+    </div>
+
+    <div class="video-info-grid">
+
+      <div class="channel-picture">
+        <img class="profile-picture"  src="channel-pictures/profile8.jpeg">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          Inside The World's Biggest Passenger Plane
+        </p>
+      
+        <p class="video-author">
+          Tech Vision
+        </p>
+      
+        <p class="video-stats">
+          3.7M views &middot; 10 months ago
+        </p>
+      </div>
+      
+      
+    </div>
+
+  </div>
+
+
+
+  <div class="video-preview">
+
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+    </div>
+
+    <div class="video-info-grid">
+
+      <div class="channel-picture">
+        <img class="profile-picture"  src="channel-pictures/profile9.jpeg">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          The SECRET to Super Human STRENGTH
+        </p>
+      
+        <p class="video-author">
+          ThenX
+        </p>
+      
+        <p class="video-stats">
+          20M views &middot; 3 year ago
+        </p>
+      </div>
+      
+      
+    </div>
+
+  </div>
+
+
+
+  <div class="video-preview">
+
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+    </div>
+
+    <div class="video-info-grid">
+
+      <div class="channel-picture">
+        <img class="profile-picture"  src="channel-pictures/profile10.jpeg">
+      </div>
+
+      <div class="video-info">
+        <p class="video-title">
+          How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+        </p>
+      
+        <p class="video-author">
+          Business Insider
+        </p>
+      
+        <p class="video-stats">
+          14M views &middot; 1 year ago
+        </p>
+      </div>
+      
+      
+    </div>
+
+  </div>
+
+
+
+  <div class="video-preview">
+
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+    </div>
+
+    <div class="video-info-grid">
+
+      <div class="channel-picture">
+        <img class="profile-picture"  src="channel-pictures/profile11.jpeg">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          Dubai's Crazy Underwater Train and Other Things &num;Only in Dubai
+        </p>
+      
+        <p class="video-author">
+          Destination Tips
+        </p>
+      
+        <p class="video-stats">
+          3M views &middot; 1 year ago
+        </p>
+      </div>
+      
+    </div>
+
+  </div>
+
+
+
+  <div class="video-preview">
+
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+    </div>
+
+    <div class="video-info-grid">
+
+      <div class="channel-picture">
+        <img class="profile-picture"  src="channel-pictures/profile12.jpeg">
+      </div>
+      <div class="video-info">
+        <p class="video-title">
+          What would happen if you didn’t drink water &quest; &hyphen; Mia Nacamulli
+        </p>
+      
+        <p class="video-author">
+          TED&hyphen;Ed
+        </p>
+      
+        <p class="video-stats">
+          12M views &middot; 5 years ago
+        </p>
+      </div>
+      
+  </div>
+
+  </div>
+
+
+
+
+  
+
+      
+    
+
+
+
+
+
+
+    
+
+    
+
+      
 
 
 </body>
